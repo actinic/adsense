@@ -1,0 +1,4 @@
+use php artisan tinker to manupulate database
+DB::table('users')->where('name', 'John')->first();
+
+//
